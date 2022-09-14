@@ -1,42 +1,33 @@
 # Let's experiment with variables and data types.
 
 # This is a string.
-"Hello from the editor!"
+
+"Hello world"
 
 # We can print it.
-print("Hello from the editor!")
+print("Hello world")
 
-type("Hello World")
-
-print(type("Hello World"))
+print('Hello world')
 
 # This is an integer.
+
 2
 
-# This is a floating-point number.
-17.0
+# We can print it.
+print(2)
 
-# That when you do arithmetic with a floating-point number,
+# This is a floating-point number.
+print(17.0)
+
+# When you do arithmetic with a floating-point number,
 # the result is a floating-point number.
 
-2+17.0
-
 print(2 + 17.0)
-print(type(2 + 17.0))
 
-print(2 + 3)
-
-# Remember the PEDMAS order of operations.
-print(2*3 + 3*3)
-
-print(2*(3 + 3)*3)
-
-print(type(2*(3+3)*3))
+print(2/3)
 
 # The integer divide (//) drops the decimal part of the quotient.
 print(2 // 3)
-
-print(15 // 2)
 
 # The remainder or modulus or mod operator (%) returns the remainder.
 print(17 % 2)
@@ -46,9 +37,15 @@ print(3**2)
 
 print(2**3)
 
-msg = "Hello World!"
+print(14_000_000)
 
-print(type(msg))
+# Remember the PEDMAS order of operations.
+
+print(2*3 + 3*3)
+
+print(2 * (3+3) * 3)
+
+msg = "Hello world!"
 
 print(msg)
 
@@ -57,8 +54,6 @@ msg2 = "What's your name?"
 print(msg2)
 
 class_grade = 4.0
-
-print(class_grade)
 
 class_credits = 3
 
@@ -72,11 +67,18 @@ fname = "laura"
 
 lname = "gross"
 
+print(fname)
+
 # We can assign more than one variable at once!
 first_name, last_name = "laura", "gross"
 
 print(first_name)
 
+print(type(msg))
+
+print(type(class_grade))
+
+print(type(class_credits))
+
 # Use all-caps for constants that you never want to change!
 NATION_NAME = "USA"
-
